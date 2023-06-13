@@ -1,3 +1,5 @@
+Basic Example of SPICE file
+
 ***Include Library****
 
 
@@ -12,4 +14,3 @@ V  1 0 5
 
 .op
 .end
-
