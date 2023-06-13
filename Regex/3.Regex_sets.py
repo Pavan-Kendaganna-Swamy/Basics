@@ -80,3 +80,17 @@ if m8:
     print(m8, "q8 : yes")
 else:
     print("q8 : no")
+    
+    
+#q9 : greedy match : [.*]
+greedy_pattern = r"\[.*\]" 
+greedy_string = "[Extract data [between brackets] using regex]" 
+greedy_match = re.findall(greedy_pattern,greedy_string) 
+print("q9: ", greedy_match) 
+ 
+#q10 : non greedy : [*?]
+ 
+non_greedy_pattern = r"\[.*?\]" 
+non_greedy_string = "[Extract data [between brackets] using regex]" 
+non_greedy_match = re.findall(non_greedy_pattern,non_greedy_string) 
+print("q10: " ,non_greedy_match)
